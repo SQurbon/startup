@@ -1,0 +1,102 @@
+{
+  "register": [
+    {
+      "id": "e165",
+      "name": "qurbon",
+      "lastname": "sultonqulov"
+    },
+    {
+      "id": "6f1e",
+      "name": "qurbon",
+      "lastname": "sultonqulov",
+      "number": "938275755",
+      "photo": "1231wa",
+      "compname": "www.com"
+    },
+    {
+      "id": "32dd",
+      "name": "qqq",
+      "lastname": "qqqq"
+    },
+    {
+      "id": "8056",
+      "name": "1",
+      "lastname": "1",
+      "number": "1",
+      "photo": "1",
+      "compname": "1"
+    },
+    {
+      "id": "9c40",
+      "name": "4",
+      "lastname": "4",
+      "number": "4",
+      "photo": "4",
+      "compname": "4"
+    },
+    {
+      "id": "b0e9",
+      "name": "11",
+      "lastname": "11",
+      "number": "11",
+      "photo": "11",
+      "compname": "11"
+    },
+    {
+      "id": "f9b5",
+      "name": "22",
+      "lastname": "22",
+      "number": "22",
+      "photo": "22",
+      "compname": "22"
+    },
+    {
+      "id": "8f0e",
+      "name": "cc",
+      "lastname": "cc",
+      "number": "cc",
+      "photo": "cc",
+      "compname": "cc"
+    },
+    {
+      "id": "9f95",
+      "name": "vv",
+      "lastname": "vv",
+      "number": "vv",
+      "photo": "vv",
+      "compname": "vv"
+    },
+    {
+      "id": "4a79",
+      "name": "vv",
+      "lastname": "vv",
+      "number": "vv",
+      "photo": "vv",
+      "compname": "vv"
+    },
+    {
+      "id": "017c",
+      "name": "2121",
+      "lastname": "2121",
+      "number": "2121",
+      "photo": "2121",
+      "compname": "2121"
+    },
+    {
+      "id": "6699",
+      "name": "1111111111111",
+      "lastname": "11111111111111111",
+      "number": "111111111111",
+      "photo": "111",
+      "compname": "1111111111111111111111111111"
+    },
+    {
+      "id": "9436",
+      "name": "1111111111111",
+      "lastname": "11111111111111111",
+      "number": "111111111111",
+      "photo": "111",
+      "compname": "1111111111111111111111111111"
+    }
+  ]
+}
