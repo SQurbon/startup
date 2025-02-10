@@ -1,0 +1,112 @@
+section.apphouse{
+    width: 100%;
+    /* background: linear-gradient(to top ,white,rgb(26, 30, 68)); */
+}
+section.apphouse .col-lg-12{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 20px;
+
+}
+section.apphouse .col-lg-12:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 20px;
+}
+section.apphouse h1 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: rgba(0, 0, 0, 1);
+    padding-top: 88px;
+    margin-bottom: 0px;
+}
+section.apphouse h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 0px;
+}
+section.apphouse .btn{
+    margin-top: 32px;
+    display: flex;
+    grid-gap: 10px;
+    border: none;
+}
+section.apphouse .btn .btnn {
+    padding: 12px 35px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: rgba(33, 40, 100, 1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+section.apphouse .btn .btnn:focus{
+    background-color: rgba(255, 194, 57, 1);
+    box-shadow: 0 0 10px rgb(72, 72, 72);
+}
+section.apphouse .appcard {
+    border-radius: 10px !important;
+    margin-top: 32px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+section.apphouse .appcard .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section.apphouse .appcard  svg{
+    font-size: 25px;
+}
+section.apphouse .appcard img {
+    width: 100%;
+    height: 200px !important;
+    margin-top: 0px;
+    border-radius: 10px;
+    height: unset;
+}
+
+
+section.apphouse .appcard .appcardin{
+    
+    padding: 18px 20px;
+}
+section.apphouse .appcard .appcardin .sizeoff{
+    margin-top: 17px;
+}
+section.apphouse .appcard .appcardin .sizeoff .firstsize{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.apphouse .appcard .appcardin .sizeoff .firstsize h6 {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+section.apphouse .appcard .appcardin  h3 {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    padding-top: 25px;
+    margin-bottom: 0px;
+}
+/* .like {
+    width: 100%;
+
+    position: relative;
+}
+.justheart{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    font-size: 70px !important;
+    color: red;
+    display: none;
+} */

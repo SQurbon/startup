@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useAddRegistersMutation } from '../../redux/Register';
+import './Secondregister.css'
 import { useAddSecondRegisterMutation, useAddSecondRegistersMutation } from '../../secondredux/Secondregister';
 
 export default function SecondRegister() {
@@ -22,17 +23,20 @@ export default function SecondRegister() {
         }
         await addSecondRegister(seconddata)
     }
+
     return (
         <>
-            <form action="">
-                <input onChange={(e) => setInpone(e.target.value)} type="text" />
-                <input onChange={(e) => setInpsecond(e.target.value)} type="text" />
-                <input onChange={(e) => setInpthird(e.target.value)} type="text" />
-                <input onChange={(e) => setInpfourth(e.target.value)} type="text" />
-                <input onChange={(e) => setInpfive(e.target.value)} type="text" />
-
-                <button onClick={(e) => handleSecondRegister(e)}>click</button>
+            <div className="box">
+            <h1>Seller Registration Form</h1>
+            <form className='secondreg' action="">
+                <input onChange={(e) => setInpone(e.target.value)} type="text" placeholder='Enter your name ...' />
+                <input onChange={(e) => setInpsecond(e.target.value)} type="text" placeholder='Enter your last name ... ' />
+                <input onChange={(e) => setInpthird(e.target.value)} type="number" placeholder='Enter your phone number ' />
+                <input onChange={(e) => setInpfourth(e.target.value)} type="text" placeholder='Choose your profile photo' />
+                <input onChange={(e) => setInpfive(e.target.value)} type="text" placeholder='Enter your company name' />
+                <button onClick={(e) => handleSecondRegister(e)}>Register</button>
             </form>
+        </div>
         </>
     )
 }

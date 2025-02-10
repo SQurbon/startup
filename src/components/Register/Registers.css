@@ -1,0 +1,33 @@
+.firstregister {
+    margin-top: 3%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 30px;
+}
+
+.firstregister input,
+select,
+button {
+    width: 25% !important;
+    padding: 15px 30px;
+    border-radius: 12px;
+    border: 2px solid black;
+    outline: none;
+
+
+}
+
+.firstregister button {
+    border-radius: 12px;
+    border: none;
+    background-color: #5191FF;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 12px;
+    padding: 22px 44px;
+    cursor: pointer;
+}
